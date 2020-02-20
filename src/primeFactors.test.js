@@ -16,4 +16,8 @@ describe("primeFactors", () => {
   it("should return [2, 2] if given 4", () => {
     expect(primeFactors(4)).toEqual([2, 2])
   })
+
+  it("should return [5] if given 5", () => {
+    expect(primeFactors(5)).toEqual([5])
+  })
 })
