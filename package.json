@@ -1,0 +1,15 @@
+{
+  "name": "prime-factors-kata",
+  "version": "1.0.0",
+  "description": "TTD algorithm implementation of the prime factors kata",
+  "main": "",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watchAll --coverage"
+  },
+  "author": "Andrea Diotallevi",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
