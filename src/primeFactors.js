@@ -1,12 +1,10 @@
 function primeFactors(n) {
   let factors = []
-  if (n > 1) {
-    while (n % 2 === 0) {
-      factors.push(2)
-      n /= 2
+  for (divisor = 2; n > 1; divisor++) {
+    for (; n % divisor === 0; n /= divisor) {
+      factors.push(divisor)
     }
   }
-  if (n > 1) factors.push(n)
   return factors
 }
 
