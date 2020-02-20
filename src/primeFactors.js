@@ -1,7 +1,7 @@
 function primeFactors(n) {
   let factors = []
   if (n > 1) {
-    if (n % 2 === 0) {
+    while (n % 2 === 0) {
       factors.push(2)
       n /= 2
     }
