@@ -36,4 +36,8 @@ describe("primeFactors", () => {
   it("should return [3, 3] if given 9", () => {
     expect(primeFactors(9)).toEqual([3, 3])
   })
+
+  it("should return [2, 3, 3, 3, 5, 7, 11, 11, 13] if given (2 * 3 * 3 * 3 * 5 * 7 * 11 * 11 * 13)", () => {
+    expect(primeFactors(2 * 3 * 3 * 3 * 5 * 7 * 11 * 11 * 13)).toEqual([2, 3, 3, 3, 5, 7, 11, 11, 13])
+  })
 })
